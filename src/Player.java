@@ -4,7 +4,8 @@ public abstract class Player {
 
     private int HEALTH;
     private int MANA;
-    private int LEVEL;
+
+    private Expierience PLAYER_XP;
 
     private ArrayList<Move> MOVES;
 

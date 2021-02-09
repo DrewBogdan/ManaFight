@@ -1,3 +1,5 @@
-public class Defend {
+public class Defend extends Move{
+
+    private int TOUGHNESS;
 
 }
