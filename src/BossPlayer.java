@@ -1,2 +1,3 @@
-public class BossPlayer extends Player{
+public class BossPlayer extends ComputerPlayer{
+
 }
