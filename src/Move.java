@@ -5,7 +5,7 @@ public class Move {
     private int MANA_COST;
     private int MANA_GAIN;
 
-    private Expierience MOVE_XP;
+    private Experience MOVE_XP;
 
 
 
