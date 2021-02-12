@@ -4,7 +4,7 @@ public class ModifierData {
     double USER_EXPERIENCE_MULTIPLIER = .6;
     double MOVE_EXPERIENCE_MULTIPLIER = .25;
     double ENEMY_EXPERIENCE_MULTIPLIER = .3;
-    double ENEMY_MOVE_EXPERIENCE_MULTIPLIER = .45;
+    double ENEMY_MOVE_EXPERIENCE_MULTIPLIER = .075;
 
     // Damage Multiplier (How much damage is multiplied in general based on Designation)
     // This will be adjusted based on difficulty (Lazy AI because yeah)
