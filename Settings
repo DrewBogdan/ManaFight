@@ -1,0 +1,29 @@
+Game Settings File:
+
+Experience Multiplier that multiplies damage done
+or protected to increase experience level
+
+1 User multiplier: .6
+2 Move Multiplier : .25
+3 Enemy Multiplier: .3
+4 Enemy Move Multiplier: .075
+
+Damage Handicap, changing these numbers changes the
+damage output of enemies and the player
+
+5 User Damage Modifier: 1
+6 Enemy Damage Modifier: 1
+7 Boss Damage Modifier: 2
+8 Minion Damage Modifier: .75
+
+Level damage modifier's change how much damage amounts
+change based on level of the player. (Same for enemy and user)
+
+9 Player Multiplier: .35
+10 Move Multiplier: .15
+
+These are multiplied to the base damage and then added to it to increase
+output. If these data points are changed the data in game will
+be adjusted accordingly. The number beforehand must be kept. the rest
+of the writing can be changed however needed. The code will look for the
+first number on the line corresponding.

@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
 public class ModifierData {
 
     // Experience Multiplier (How much the damage is multiplied by to figure out how much experience is gained)
@@ -16,6 +20,36 @@ public class ModifierData {
     // Level Damage Multiplier (How much the damage is multiplied by based on level)
     double PLAYER_LEVEL_MULTIPLIER = 1.05;
     double MOVE_LEVEL_MULTIPLIER = 1.2;
+
+    // Private constructor to instantiate one single Data class that circulates
+    private ModifierData() {}
+
+    private void loadSettings() {
+        File settings = new File("Settings.txt");
+        Scanner settingsScan = null;
+        try {
+            settingsScan = new Scanner(settings);
+        } catch (FileNotFoundException e) {
+            System.out.println("File cannot be found");
+        }
+        while(settingsScan.hasNextLine()){
+            while(settingsScan.hasNext()){
+                int lineNumber = settingsScan.nextInt();
+                switch(lineNumber){
+                    // WORK IN PROGRESS
+                }
+            }
+        }
+    }
+    static ModifierData modifiers = null;
+
+    public static ModifierData getSettings() {
+        if(modifiers == null) {
+            modifiers = new ModifierData();
+        }
+        return modifiers;
+    }
+
 
 
 }
