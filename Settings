@@ -11,9 +11,9 @@ or protected to increase experience level
 Damage Handicap, changing these numbers changes the
 damage output of enemies and the player
 
-5 User Damage Modifier: 1
-6 Enemy Damage Modifier: 1
-7 Boss Damage Modifier: 2
+5 User Damage Modifier: 1.0
+6 Enemy Damage Modifier: 1.0
+7 Boss Damage Modifier: 2.0
 8 Minion Damage Modifier: .75
 
 Level damage modifier's change how much damage amounts

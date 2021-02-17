@@ -1,0 +1,30 @@
+[
+  {
+    "Expierience Comments": "Modifying these data points will change how many expierience points are generated",
+
+    "Expierience Multiplier": {
+      "PlayerE": ".6",
+      "MoveE": ".25",
+      "EnemyE": ".3",
+      "EnemyMoveE": ".075"
+    }
+  },
+  {
+    "Damage Comments": "Modifying this data changes how much damage from the given object is multiplied by",
+
+    "Damage Modifier": {
+      "UserD": "1.0",
+      "EnemyD": "1.0",
+      "BossD": "2.0",
+      "MinionD": ".75"
+    }
+  },
+  {
+    "Level Damage Comments": "Mofdifying these data points change how much damage amounts change per level",
+
+    "Level Damage Modifier": {
+      "PlayerM": ".35",
+      "MoveM": ".15"
+    }
+  }
+]

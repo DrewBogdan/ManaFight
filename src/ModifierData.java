@@ -32,15 +32,24 @@ public class ModifierData {
         } catch (FileNotFoundException e) {
             System.out.println("File cannot be found");
         }
-        while(settingsScan.hasNextLine()){
-            while(settingsScan.hasNext()){
-                int lineNumber = settingsScan.nextInt();
-                switch(lineNumber){
-                    // WORK IN PROGRESS
+        while(settingsScan.hasNextLine()) {
+
+            while(settingsScan.hasNext()) {
+                if(settingsScan.hasNextInt()) {
+                    int lineNumber = settingsScan.nextInt();
+
+                }
+                else {
+                    settingsScan.next();
                 }
             }
         }
     }
+
+    private void setSettings() {
+
+    }
+
     static ModifierData modifiers = null;
 
     public static ModifierData getSettings() {
