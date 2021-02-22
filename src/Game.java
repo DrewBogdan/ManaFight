@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Game {
 
-    ModifierData settings = ModifierData.getSettings();
+    static ModifierData settings = ModifierData.getSettings();
 
     public static void main(String[] args) {
         System.out.println("Loading Game Settings...");
@@ -11,6 +11,7 @@ public class Game {
     }
 
     public static void game() {
+        settings.printSettings();
         intro();
     }
 

@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.sql.SQLOutput;
 import java.util.*;
 
 import java.io.FileNotFoundException;
@@ -59,18 +60,18 @@ public class ModifierData {
     private void setSettings(JSONObject settingsObject) {
         JSONObject pointObject = (JSONObject) settingsObject.get("Modifier Data");
 
-        USER_EXPERIENCE_MULTIPLIER = (double) pointObject.get("PlayerE");
-        MOVE_EXPERIENCE_MULTIPLIER = (double) pointObject.get("MoveE");
-        ENEMY_EXPERIENCE_MULTIPLIER = (double) pointObject.get("EnemyE");
-        ENEMY_MOVE_EXPERIENCE_MULTIPLIER = (double) pointObject.get("EnemyMoveE");
+        USER_EXPERIENCE_MULTIPLIER = Double.parseDouble(pointObject.get("PlayerE").toString());
+        MOVE_EXPERIENCE_MULTIPLIER = Double.parseDouble(pointObject.get("MoveE").toString());
+        ENEMY_EXPERIENCE_MULTIPLIER = Double.parseDouble(pointObject.get("EnemyE").toString());
+        ENEMY_MOVE_EXPERIENCE_MULTIPLIER = Double.parseDouble(pointObject.get("EnemyMoveE").toString());
 
-        USER_DAMAGE_MULTIPLIER = (double) pointObject.get("UserD");
-        ENEMY_DAMAGE_MULTIPLIER = (double) pointObject.get("EnemyD");
-        BOSS_DAMAGE_MULTIPLIER = (double) pointObject.get("BossD");
-        MINION_DAMAGE_MULTIPLIER = (double) pointObject.get("MinionD");
+        USER_DAMAGE_MULTIPLIER = Double.parseDouble(pointObject.get("UserD").toString());
+        ENEMY_DAMAGE_MULTIPLIER = Double.parseDouble(pointObject.get("EnemyD").toString());
+        BOSS_DAMAGE_MULTIPLIER = Double.parseDouble(pointObject.get("BossD").toString());
+        MINION_DAMAGE_MULTIPLIER = Double.parseDouble(pointObject.get("MinionD").toString());
 
-        PLAYER_LEVEL_MULTIPLIER = (double) pointObject.get("PlayerM");
-        MOVE_LEVEL_MULTIPLIER = (double) pointObject.get("MoveM");
+        PLAYER_LEVEL_MULTIPLIER = Double.parseDouble(pointObject.get("PlayerM").toString());
+        MOVE_LEVEL_MULTIPLIER = Double.parseDouble(pointObject.get("MoveM").toString());
 
     }
 
@@ -79,6 +80,19 @@ public class ModifierData {
             modifiers = new ModifierData();
         }
         return modifiers;
+    }
+
+    public void printSettings() {
+        System.out.println(USER_EXPERIENCE_MULTIPLIER);
+        System.out.println(MOVE_EXPERIENCE_MULTIPLIER);
+        System.out.println(ENEMY_EXPERIENCE_MULTIPLIER);
+        System.out.println(ENEMY_MOVE_EXPERIENCE_MULTIPLIER);
+        System.out.println(USER_DAMAGE_MULTIPLIER);
+        System.out.println(ENEMY_DAMAGE_MULTIPLIER);
+        System.out.println(BOSS_DAMAGE_MULTIPLIER);
+        System.out.println(MINION_DAMAGE_MULTIPLIER);
+        System.out.println(PLAYER_LEVEL_MULTIPLIER);
+        System.out.println(MOVE_LEVEL_MULTIPLIER);
     }
 
 

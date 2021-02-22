@@ -1,18 +1,16 @@
-[
-  {
-    "Modifier Data": {
-      "PlayerE": ".6",
-      "MoveE": ".25",
-      "EnemyE": ".3",
-      "EnemyMoveE": ".075",
+{
+  "Modifier Data": {
+    "PlayerE": ".6",
+    "MoveE": ".25",
+    "EnemyE": ".3",
+    "EnemyMoveE": ".075",
 
-      "UserD": "1.0",
-      "EnemyD": "1.0",
-      "BossD": "2.0",
-      "MinionD": ".75",
+    "UserD": "1.0",
+    "EnemyD": "1.0",
+    "BossD": "2.0",
+    "MinionD": ".75",
 
-      "PlayerM": ".35",
-      "MoveM": ".15"
-    }
+    "PlayerM": ".35",
+    "MoveM": ".15"
   }
-]
+}
