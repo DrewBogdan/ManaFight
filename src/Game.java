@@ -99,24 +99,24 @@ public class Game {
     }
 
     private static void thief() {
-        System.out.println("");
-        System.out.println("");
-        System.out.println("Super Attack: ");
-        System.out.println("Basic Attack: ");
-        System.out.println("Quick Attack: ");
-        System.out.println("Basic Defense: ");
-        System.out.println("Strong Defense: ");
-        System.out.println("Mana Gain: ");
+        System.out.println("The Thief is a very skilled and silent fighter. He does not often try to kill, only tries to steal");
+        System.out.println("But if he gets angry enough, he is capable of very scary things, you wont see him come, and you wont know your dead");
+        System.out.println("Super Attack: The Wind - All opponents mana is stolen, Mana stolen this way is dealt back in damage but doubled. costs 10 mana");
+        System.out.println("Basic Attack: Shadow Strike - Deals Damage equal to thiefs mana, costs 3 mana");
+        System.out.println("Quick Attack: Stab - Deals 2 damage, unblockable, costs 0 mana");
+        System.out.println("Basic Defense: Smoke Screen - blocks 15% of all incoming damage, costs 1 mana");
+        System.out.println("Strong Defense: Disappear - blocks all incoming damage, costs 3 mana");
+        System.out.println("Mana Gain: Steal - if opponent does not use a defensive or mana gain ability, thief steals 2 mana");
     }
 
     private static void dragonSlayer() {
-        System.out.println("");
-        System.out.println("");
-        System.out.println("Super Attack: ");
-        System.out.println("Basic Attack: ");
-        System.out.println("Quick Attack: ");
-        System.out.println("Basic Defense: ");
-        System.out.println("Strong Defense: ");
-        System.out.println("Mana Gain: ");
+        System.out.println("The Dragon Slayer is a cunning warrior who not only has killed multiple dragons, but also tamed one for his own use");
+        System.out.println("He is a force to be rekoned with, being on the end of his anger is not something people should take lightly");
+        System.out.println("Super Attack: Summon the Dragon - Deals 50 Damage, costs 8 mana and 10 health");
+        System.out.println("Basic Attack: Fire Staff - Deals 10 Damage, costs 3 mana");
+        System.out.println("Quick Attack: Whiplash - Deals 2 damage, enemy can only block the next turn, costs 1 mana");
+        System.out.println("Basic Defense: Absorb - Blocks 40% of all incoming damage, costs 2 mana");
+        System.out.println("Strong Defense: Dragon Scales - Blocks 75% of all incoming damage from Basic and quick attacks, 95% of super attacks, costs 4 mana");
+        System.out.println("Mana Gain: Meditate - Gain 2 mana");
     }
 }
