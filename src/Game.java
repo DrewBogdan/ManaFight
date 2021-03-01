@@ -47,7 +47,7 @@ public class Game {
         }
         else if(userInput.equals("drew")) {
             System.out.println("You have activated the special fighter Drew");
-            System.out.println("Fucking retard, you will die now.");
+            System.out.println("You are dumb, you will die now.");
         }
         else {
             System.out.println("Please enter a valid command");
@@ -66,22 +66,57 @@ public class Game {
     // ********************* FIGHTERS ********************************
 
     private static void sunCleric() {
-
+        System.out.println("The Sun Cleric has a powerful connection with the god's who have bestowed him with powers unimaginable by mortals");
+        System.out.println("They have access to multiple powers that funnel the power of the sun through his fingertips");
+        System.out.println("Super Attack: Spear of light - Deals Damage equivalent to Mana spent multiplied by 5");
+        System.out.println("Basic Attack: Sun stare - Deals 8 damage, costs 2 mana");
+        System.out.println("Quick Attack: Burning Iris - Deals 3 Damage, unblockable attack, costs 0 mana");
+        System.out.println("Basic Defense: Rays of sunshine - Blocks 35% of all incoming damage, costs 1 mana");
+        System.out.println("Strong Defense: Blinding Wall - Blocks 70% of all incoming damage, costs 2 mana");
+        System.out.println("Mana Gain: Sundrain - Gain a random amount of mana between 1 and 4");
     }
 
     private static void tank() {
-
+        System.out.println("The Tank is a strong knight of God with the courage to take up any fight and the power to win them all");
+        System.out.println("His skills allow him to hit very hard, but not super fast, but with his armor, he is not easy to kill");
+        System.out.println("Super Attack: Hammer of God - Deals 70 Damage, unless enemy is blocking. Costs 6 mana");
+        System.out.println("Basic Attack: Shattering Swing - Deals 15 Damage, costs 3 mana");
+        System.out.println("Quick Attack: Skewer - Deals 8 Damage, costs 1 mana");
+        System.out.println("Basic Defense: Shield - Blocks 60% of all incoming damage, costs 2 mana");
+        System.out.println("Strong Defense: Phalanx - Blocks all incoming damage, costs 4 mana");
+        System.out.println("Mana Gain: Pray - Gains 2 mana, all attacks deal double damage to him in this state");
     }
 
     private static void stormWizard() {
-
+        System.out.println("The Storm Wizard spent the first 400 years of his life studying storms from his ocean observatory");
+        System.out.println("He has figured out a way to harness their power and manipulate them to work with him instead of against him");
+        System.out.println("Super Attack: Blessing of Zeus - The storm mage takes half damage, but deals triple damage for the next 3 turns, costs 5 mana");
+        System.out.println("Basic Attack: Lighting Strike - Deals 9 Damage, costs 3 mana");
+        System.out.println("Quick Attack: Thunderous roar - Deals 3 Damage, costs 1 mana");
+        System.out.println("Basic Defense: Tidal Wave - blocks 55% of all incoming damage, attackers next move costs 1 more mana");
+        System.out.println("Strong Defense: Hurricane - Blocks 80% of all incoming damage, attacker loses 3 health");
+        System.out.println("Mana Gain: Rain - Gain mana equal to 20% of damage dealt to storm wizard last turn");
     }
 
     private static void thief() {
-
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Super Attack: ");
+        System.out.println("Basic Attack: ");
+        System.out.println("Quick Attack: ");
+        System.out.println("Basic Defense: ");
+        System.out.println("Strong Defense: ");
+        System.out.println("Mana Gain: ");
     }
 
     private static void dragonSlayer() {
-
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Super Attack: ");
+        System.out.println("Basic Attack: ");
+        System.out.println("Quick Attack: ");
+        System.out.println("Basic Defense: ");
+        System.out.println("Strong Defense: ");
+        System.out.println("Mana Gain: ");
     }
 }
