@@ -123,10 +123,9 @@ public class Game {
 
     /**
      * TODO:
-     *      Move all this text into a text file and have it read it.
-     *          This would make the code cleaner and easier to read
      *      Add a few more characters aswell, and see if you can attach damage inside the file
      *      good luck
+     *      Set up health and starting mana for each character
      *
      *
      */
