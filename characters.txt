@@ -1,12 +1,12 @@
 The Sun Cleric
 The Sun Cleric has a powerful connection with the god's who have bestowed him with powers unimaginable by mortals
 They have access to multiple powers that funnel the power of the sun through his fingertips
-Super Attack: Spear of light - Deals Damage equivalent to Mana spent multiplied by 5
-Basic Attack: Sun stare - Deals 8 damage, costs 2 mana
-Quick Attack: Burning Iris - Deals 3 Damage, unblockable attack, costs 0 mana
-Basic Defense: Rays of sunshine - Blocks 35% of all incoming damage, costs 1 mana
-Strong Defense: Blinding Wall - Blocks 70% of all incoming damage, costs 2 mana
-Mana Gain: Sundrain - Gain a random amount of mana between 1 and 4
+Super Attack: Spear of light - Deals Damage equivalent to Mana spent multiplied by 5 Dm*5 m
+Basic Attack: Sun stare - Deals 8 damage, costs 2 mana - D8 2
+Quick Attack: Burning Iris - Deals 3 Damage, unblockable attack, costs 0 mana - D3 0 U
+Basic Defense: Rays of sunshine - Blocks 35% of all incoming damage, costs 1 mana - B35 1
+Strong Defense: Blinding Wall - Blocks 70% of all incoming damage, costs 2 mana - B70 2
+Mana Gain: Sundrain - Gain a random amount of mana between 1 and 4 - R1-4
 
 The Tank
 The Tank is a strong knight of God with the courage to take up any fight and the power to win them all
