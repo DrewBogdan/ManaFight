@@ -48,7 +48,7 @@ public class Game {
         }
         else if(userInput.equals("drew")) {
             System.out.println("You have activated the special fighter Drew");
-            System.out.println("Fucking retard, you will die now.");
+            System.out.println("You will die now.");
         }
         else {
             System.out.println("Please enter a valid command");
