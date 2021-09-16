@@ -120,4 +120,17 @@ public class Game {
         System.out.println("Strong Defense: Dragon Scales - Blocks 75% of all incoming damage from Basic and quick attacks, 95% of super attacks, costs 4 mana");
         System.out.println("Mana Gain: Meditate - Gain 2 mana");
     }
+
+    /**
+     * TODO:
+     *      Move all this text into a text file and have it read it.
+     *          This would make the code cleaner and easier to read
+     *      Add a few more characters aswell, and see if you can attach damage inside the file
+     *      good luck
+     *
+     *
+     */
+
+
+
 }
