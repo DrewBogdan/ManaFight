@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 public class Move {
-    Effect EFFECT;
+    ArrayList<Effect> EFFECTS;
     String MOVE_NAME;
     String MOVE_COST;
 

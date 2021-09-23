@@ -1,4 +1,4 @@
-public class Super extends Move {
+public class Super extends BasicAttack {
 
     public Super(String NAME) {
 
